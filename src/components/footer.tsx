@@ -1,3 +1,4 @@
+import React from 'react'
 import { Mail, Phone, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram, Github } from 'lucide-react'
 
 const footerLinks = {
@@ -25,7 +26,7 @@ const footerLinks = {
   ]
 }
 
-const socialLinks = [
+const socialLinks: Array<{ name: string; icon: React.ComponentType<{ className?: string }>; href: string; color: string }> = [
   // { name: 'Twitter', icon: Twitter, href: '#', color: 'hover:text-purple-400' },
   // { name: 'LinkedIn', icon: Linkedin, href: '#', color: 'hover:text-purple-700' },
   // { name: 'Instagram', icon: Instagram, href: '#', color: 'hover:text-pink-500' },

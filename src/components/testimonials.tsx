@@ -73,8 +73,8 @@ export default function Testimonials() {
             >
               {/* Quote Icon */}
               <div className="flex justify-end mb-4">
-                <div className="p-2 rounded-full bg-blue-100">
-                  <Quote className="w-5 h-5 text-blue-600" />
+                <div className="p-2 rounded-full bg-purple-100">
+                  <Quote className="w-5 h-5 text-purple-600" />
                 </div>
               </div>
 
@@ -92,13 +92,13 @@ export default function Testimonials() {
 
               {/* Author */}
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-semibold text-lg mr-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-semibold text-lg mr-4">
                   {testimonial.avatar}
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600">{testimonial.position}</p>
-                  <p className="text-sm text-blue-600 font-medium">{testimonial.company}</p>
+                  <p className="text-sm text-purple-600 font-medium">{testimonial.company}</p>
                 </div>
               </div>
             </div>
